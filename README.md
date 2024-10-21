@@ -9,6 +9,8 @@
 
 This project solves a classic optimization challenge known as the **Bin Packing Problem (BPP)** on a quantum annealer. We look at a variant of the BPP, namely, finding a spatial configuration that manages to fit all the cases in the provided bins.
 
-Please see [2d_bin_packing.ipynb](2d_bin_packing.ipynb) for an explanation of the BPP, solving the BPP on a quantum annealer, and investigating the challenge involved in scaling BPP problem sizes to run on digital quantum computers. References are also provided in the notebook.
+Please see [2d_bin_packing.ipynb](2d_bin_packing.ipynb) for an explanation of the BPP, solving the BPP on a quantum annealer, and investigating the challenge involved in scaling BPP problem sizes to run on digital quantum computers. References are also provided in the notebook. 
+
+**Note**: It is necessary to view the notebook outside GitHub - either locally or on the cloud - for the interactive visualization of the quantum annealing output (uses plotly).
 
 For the code implementation of the quantum annealing of BPP, see [packing2d.py](packing2d.py).
